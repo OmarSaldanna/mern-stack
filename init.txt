@@ -1,0 +1,28 @@
+INICIAR EL PROYECTO:
+
+#Abrir multiples ventanas de terminal
+
+Arrancar la base de datos (mongodb): en mac*
+$ brew services start mongodb-community@4.2
+
+Arrancar el servidor o backend:
+/backend $ npm run dev
+
+Arrancar la aplicacion de react o frontend:
+/frontend $ npm start
+
+
+DETENER EL PROYECTO:
+
+Parar la base de datos:
+$ brew services stop mongodb-community@4.2
+
+Presionar CTRL+C en las terminales con procesos para detenerlos
+
+NOTAS:
+
+Agregar al archivo de Open settings JSON el siguiente fragmento para autocompletado 
+en JSX, se accede presionando F1 y buscando el nombre.
+"emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
